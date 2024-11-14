@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="mainmeat"> 
+        <h1>BMI Calculator</h1>
+        <h3>This is a Bmi Calculator please enter your weight in kg and Height in Metres <br> sorry we will provide support for imperial measurements in the future</h3>
+        <form id="data" action="results.html" method="get"></form>
+            <label id="weightlabel">Weight (kg)</label>
+            <input type="text" id="weightinput" placeholder="Weight (kg)" required>
+            <label id="heightlabel">Height (m)</label>
+            <input type="text" id="heightinput" placeholder="Height (m)" required>
+            <button type="submit" id="submitbtn" onclick="storeDATA()">Submit</button>
+        </form>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

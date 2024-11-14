@@ -1,0 +1,58 @@
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    display:flex;
+    height: 90vh;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+#bmiplaceholder{
+    background-color: rgb(210, 88, 88);
+    display: inline-block;
+    padding: 0.25em;
+    border-radius: 25px;
+}
+
+#weightoutcomes{
+    background-color: rgb(88, 192, 210);
+    display: inline-block;
+    padding: 0.25em;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+h4{
+    color: black;
+    background-color: rgb(161, 88, 210);
+    display: inline-block;
+    padding: 0.25em;
+    border-radius: 25px;
+
+}
+
+a h4:hover{
+    background-color: hsl(276, 58%, 40%);
+}
+
+@media (min-width:1920px) {
+    #mainmeat {
+        transform-origin: center;
+        transform: scale(3);
+    }
+}
