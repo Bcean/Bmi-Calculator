@@ -51,7 +51,7 @@ a h4:hover{
 }
 
 @media (min-width:1920px) {
-    #mainmeat {
+    #main {
         transform-origin: center;
         transform: scale(3);
     }
